@@ -1,11 +1,88 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=Реестр_процессов_МП_регион_ддммгггг_.html">
-    <title>Перенаправление...</title>
-  </head>
-  <body>
-    <p>Если страница не переадресована, <a href="Реестр_процессов_МП_регион_ддммгггг_.html">нажмите сюда</a>.</p>
-  </body>
+    <title>Реестр процессов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            max-width: 100px;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            margin: 0.5rem 0 2rem;
+            color: #2c3e50;
+        }
+        .link-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-width: 420px;
+        }
+        .link-list li {
+            margin: 1rem 0;
+        }
+        .link-list a {
+            display: block;
+            padding: 1rem;
+            background: #3b82f6;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: background 0.3s ease;
+        }
+        .link-list a:hover {
+            background: #2563eb;
+        }
+        .telegram {
+            margin-top: 2rem;
+        }
+        .telegram a {
+            background: #229ED9;
+            padding: 0.75rem 1.5rem;
+            border-radius: 2rem;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .telegram a:hover {
+            background: #1c8cc6;
+        }
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt="Telegram Logo">
+    <h1>Реестр процессов</h1>
+    <ul class="link-list">
+        <li><a href="dashboard_with_tabs.html">📊 Дашборд с вкладками</a></li>
+        <li><a href="Реестр_процессов_МП_регион_ддммгггг_.html">📝 Реестр процессов МП</a></li>
+        <li><a href="Реестр процессов МП 5.1.2.html">📄 Форма 5.1.2</a></li>
+    </ul>
+    <div class="telegram">
+        <a href="https://t.me/your_bot_link" target="_blank">📤 Отправить файл в Telegram</a>
+    </div>
+    <div class="footer">
+        © 2025 Алексей Денисов
+    </div>
+</body>
 </html>
